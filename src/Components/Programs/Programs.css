@@ -1,0 +1,57 @@
+.program{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+.program-header {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.program-header>span {
+    text-transform: uppercase;
+}
+
+.program-header>span:nth-child(2) {
+
+    color: white;
+}
+
+.program-info {
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1.5rem;
+}
+
+
+.program-info>.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--caloryCard);
+    padding: 1rem;
+    width: 25%;
+}
+
+.program-info>.info>img {
+    width: 2rem;
+}
+
+.program-info>.info>span {
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.program-info>.info>p {
+    color: white;
+}
+
+.program-info>.info:hover {
+    cursor: pointer;
+    background-color: var(--orange);
+}
