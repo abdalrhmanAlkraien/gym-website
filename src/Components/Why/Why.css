@@ -1,0 +1,114 @@
+.why_us {
+
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.left {
+
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.why_us>.left>img:nth-child(1) {
+    height: 32rem;
+}
+
+
+.img-box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.img-box>img:nth-child(1) {
+
+    width: 25rem;
+}
+.img-box>div {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.img-box>div>img:nth-child(1) {
+    width: 14rem;
+    height: 14rem;
+
+}
+
+.img-box>div>img:nth-child(2) {
+    width: 10rem;
+    height: 14rem;
+
+}
+.right {
+
+    padding-left: 5rem;
+}
+
+.right>span {
+
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--orange);
+    font-size: 1rem;
+}
+
+.reasons-header>span {
+
+    font-size: 3rem;
+    text-transform: uppercase;
+
+}
+
+.reasons-header>span:nth-child(2) {
+
+    color: white;
+    font-weight: bold;
+
+}
+
+.reasons-info {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.reasons-info>div>span {
+
+    padding: 1rem;
+    font-weight: bold;
+    color: white;
+    font-size: 1.5rem;
+}
+.tick-img {
+
+    width: 1.5rem;
+
+}
+
+.our-partner {
+
+    margin-top: 1rem;
+}
+
+.our-partner>span {
+    
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+.partner-img {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.partner-img>img {
+
+    width: 2.5rem;
+}
