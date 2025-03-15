@@ -49,3 +49,12 @@
 
   cursor: pointer;
 }
+
+.blur {
+
+  position: absolute;
+  z-index: -9;
+  border-radius: 50%;
+  filter: blur(212px);
+  background-color: rgba(253, 120, 43, 0.69);
+}

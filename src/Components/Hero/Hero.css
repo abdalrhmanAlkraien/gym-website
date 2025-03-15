@@ -225,3 +225,9 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+.blur-h {
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}

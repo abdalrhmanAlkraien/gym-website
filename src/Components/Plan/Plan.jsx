@@ -1,7 +1,6 @@
 import React from 'react'
 import './Plan.css'
 import {plansData} from '../../data/plansData'
-import rightArrow from '../../assets/rightArrow.png'
 import whiteTick from '../../assets/whiteTick.png'
 export const Plan = () => {
   return (
@@ -13,8 +12,10 @@ export const Plan = () => {
         <span className='storck-text'>now withus</span>
     </div>
 
+
     <div className="plans-card">
-        
+    <div className="blur blur-plan-1"></div>
+    <div className="blur blur-plan-2"></div>
         {plansData.map((plan,i)=> (
             <div className="plan" key={i}>
                 {plan.icon}

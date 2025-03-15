@@ -1,0 +1,42 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.social-media>img {
+    width: 2rem;
+}
+
+.logo-f {
+    margin: 4rem 0;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.logo-f>img {
+    width: 20rem;
+}
+
+.blur-footer-1{
+    width: 30rem;
+    height: 30rem;
+    justify-content: center;
+    text-align: center;
+    left: 0;
+}
+.blur-footer-2 {
+    width: 30rem;
+    height: 30rem;
+    justify-content: center;
+    text-align: center;
+    right: 0;   
+}
