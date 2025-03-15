@@ -1,0 +1,97 @@
+.plan-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.plan-header {
+    text-align: center;
+    size: 3.5rem;
+}
+
+.plan-header>span {
+
+    font-size: 3.5rem;
+}
+
+.plan-header>span:nth-child(2) {
+
+    color: white;
+    font-weight: bold;
+}
+
+.plans-card {
+
+    margin-top: 3rem;
+    display: flex;
+    flex: row;
+    align-items: center;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.plan {
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--caloryCard);
+    padding: 1.5rem;
+    gap: 1rem;
+
+    color: white;
+}
+
+.plan:nth-child(2) {
+
+    background-color: var(--orange);
+    transform: scale(1.1);
+}
+
+.plan>svg {
+    fill: var(--orange);
+    width: 2rem;
+    height: 2rem;
+}
+
+.plan>svg:nth-child(2) {
+    fill: white;
+    
+}
+.plan>:nth-child(2) {
+
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.plan>:nth-child(3) {
+
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.feat {
+    display: flex;
+    flex: row;
+    gap: 1rem;
+}
+.feat>img {
+    width: 1rem;
+}
+
+.plan>:nth-child(5) {
+
+    font-size: 0.8rem;
+}
+
+.plan>buttons {
+
+    width: 15rem;
+}
+
+.plans-card>:nth-child(2)>buttons {
+    color: var(--orange);
+}
+
+.plans-card>:nth-child(2)>svg {
+    fill: white;
+}
+
